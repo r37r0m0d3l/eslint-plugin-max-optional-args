@@ -1,0 +1,27 @@
+{
+  "author": "Anton Trofymenko",
+  "description": "ESLint plugin to enforce a maximum number of optional arguments",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^3.2.5"
+  },
+  "files": [
+    "index.js",
+    "rules/max-optional-args.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "eslint-plugin-max-optional-args",
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "version": "0.0.1"
+}

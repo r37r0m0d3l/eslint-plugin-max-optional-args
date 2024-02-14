@@ -1,0 +1,1 @@
+require("./max-optional-args.test");
